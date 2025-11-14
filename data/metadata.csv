@@ -1,0 +1,34 @@
+
+Field Name|Description|Type|Example
+Academic Year|The academic year in which the data was collected.|string|"2019-2020"
+ID Student|A unique identifier for each student.|string|"19-20Student001"
+Race Effectiveness|The effectiveness score for the entire course.|number|100.0
+Exercise1 Effectiveness|The effectiveness score for Exercise 1.|number|0.0
+Exercise2 Effectiveness|The effectiveness score for Exercise 2.|number|55.0
+Exercise3 Effectiveness|The effectiveness score for Exercise 3.|number|7.0
+Exercise4 Effectiveness|The effectiveness score for Exercise 4.|number|0.0
+Race Effectiveness Increase|The increase in effectiveness for the entire course.|number|0.07
+Exercise1 Effectiveness Increase|The increase in effectiveness for Exercise 1.|number|0.0
+Exercise2 Effectiveness Increase|The increase in effectiveness for Exercise 2.|number|0.31
+Exercise3 Effectiveness Increase|The increase in effectiveness for Exercise 3.|number|0.0
+Exercise4 Effectiveness Increase|The increase in effectiveness for Exercise 4.|number|0.0
+Race Participation|Indicates participation in the course for the entire course.|integer0
+Exercise1 Participation|Indicates participation in Exercise 1.|number|1.0
+Exercise2 Participation|Indicates participation in Exercise 2.|number|0.0
+Exercise3 Participation|Indicates participation in Exercise 3.|number|0.0
+Exercise4 Participation|Indicates participation in Exercise 4.|number|0.0
+Race Dropout|Indicates dropouts for the entire course.|integer|0
+Exercise1 Dropout|Indicates dropouts for Exercise 1.|integer|0
+Exercise2 Dropout|Indicates dropouts for Exercise 2.|integer|1
+Exercise3 Dropout|Indicates dropouts for Exercise 3.|integer|0
+Exercise4 Dropout|Indicates dropouts for Exercise 4.|number|0.0
+Race Active Time|Total active time for the entire course.|number|0.0
+Exercise1 Active Time|Active time for Exercise 1.|integer|0
+Exercise2 Active Time|Active time for Exercise 2.|integer|5
+Exercise3 Active Time|Active time for Exercise 3.|integer|1
+Exercise4 Active Time|Active time for Exercise 4.|integer|2
+Race Number Executions|The number of executions for the entire course.|integer|1
+Exercise1 Number Executions|The number of executions for Exercise 1.|integer|0
+Exercise2 Number Executions|The number of executions for Exercise 2.|integer|0
+Exercise3 Number Executions|The number of executions for Exercise 3.|integer|0
+Exercise4 Number Executions|The number of executions for Exercise 4.|integer|0
