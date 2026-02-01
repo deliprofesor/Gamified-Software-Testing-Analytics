@@ -1,27 +1,50 @@
-# Gamified-Software-Testing-Analytics
+# Gamified-Software-Testing-Analytics 
 
-![pexels-markus-winkler-1430818-18500637](https://github.com/user-attachments/assets/02bd30ca-d5e1-41ed-bbb8-a8c310c8b2d1)
+![Project Header](https://github.com/user-attachments/assets/02bd30ca-d5e1-41ed-bbb8-a8c310c8b2d1)
 
+This project analyzes student engagement and performance data from a gamified software testing course. We explore how gamification elements impact learning effectiveness and student behavior.
 
-#  Veri Kaynakları ve Depolama Formatları
+##  Project Roadmap
 
-Bu projede, **Oyunlaştırılmış Yazılım Testi Eğitimi** kapsamında toplanan öğrenci verileri kullanılır.  
-Ana veri seti; öğrencilerin dört egzersizdeki ve genel kurs performansındaki davranış ve başarı metriklerini kapsar.
+- [x] **Phase 1: Exploratory Data Analysis (EDA)**
+  - Statistical distribution of scores across 4 exercises.
+  - Correlation analysis between "Active Time" and "Effectiveness".
+  - Visualization of performance trends by academic years.
+- [ ] **Phase 2: Student Segmentation (Clustering)**
+  - Grouping students into learning profiles (e.g., High Achievers vs. Strugglers).
+- [ ] **Phase 3: Engagement & Dropout Analysis**
+  - Identifying behavioral patterns leading to course dropouts.
+- [ ] **Phase 4: Predictive Modeling**
+  - Forecasting final race performance using early-stage engagement metrics.
 
-### **Veri Dosyaları**
+##  Phase 1 Insights
+In this initial phase, we processed the raw data to understand student distributions. Key findings:
+* **Effectiveness Trends:** Visualized via Box Plots in `reports/figures/`.
+* **Engagement Patterns:** Scatter plots revealed how increased active time correlates with higher test effectiveness.
 
-| Dosya Adı | Format | Açıklama |
+---
+
+#  Data Sources & Formats
+
+The dataset includes student behavior and success metrics across four exercises and the overall course performance.
+
+### **Data Files**
+
+| File Name | Format | Description |
 |----------|--------|----------|
-| `gamification-software-testing.csv` | CSV | En temel format; veri yüklemenin başlangıç aşamalarında tercih edilir. |
-| `gamification-software-testing.feather` | Feather | Python/Pandas ve R için hızlı veri yükleme; sütun bazlı. |
-| `gamification-software-testing.parquet` | Parquet | Büyük veri ortamlarında yüksek performans ve sıkıştırma sağlar. |
+| `gamification-software-testing.csv` | CSV | Standard format for initial loading. |
+| `gamification-software-testing.feather` | Feather | High-performance columnar format for Python/R. |
+| `gamification-software-testing.parquet` | Parquet | Optimized for big data environments and compression. |
 
----
+### **Data Dictionary (Metadata)**
 
-#  Veri Sözlüğü (Meta Veri)
-
-| Dosya Adı | Açıklama | Önemi |
+| File Name | Description | Importance |
 |-----------|----------|--------|
-| `metadata.csv` | Değişken adları, açıklamaları, veri tipleri ve örnek değerleri içerir. | Veri işleme, analiz ve modelleme aşamasında referans kaynağıdır. |
+| `metadata.csv` | Contains variable names, types, and examples. | Primary reference for data processing and modeling. |
 
 ---
+
+##  Tech Stack
+- **Processing:** Pandas, PyArrow
+- **Visualization:** Seaborn, Matplotlib
+- **Environment:** Jupyter Notebooks
